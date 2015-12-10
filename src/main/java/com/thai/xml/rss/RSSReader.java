@@ -13,7 +13,8 @@ import org.apache.http.impl.client.HttpClientBuilder;
 
 public class RSSReader {
 
-    private static final String TEST_URI = "http://www.feedforall.com/sample.xml";
+    public static final String TEST_URI = "http://www.feedforall.com/sample.xml";
+    public static final String CATEGORY_URI = "www.dmoz.com";
 
     public static InputStream read() throws ClientProtocolException, IOException {
         // Ouverture d'un client
